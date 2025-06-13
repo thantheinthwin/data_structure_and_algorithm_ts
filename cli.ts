@@ -95,10 +95,10 @@ async function main() {
     const { result, executionTime } = runWithStats(() => fn(...args));
 
     console.log('==========================================');
+    console.log('Execution Time:', executionTime, 'ms');
+    console.log('==========================================');
     console.log('Result:');
     console.log(result);
-    console.log('==========================================');
-    console.log('Execution Time:', executionTime, 'ms');
     console.log('==========================================');
   } catch (err: any) {
     console.error('Error:', err.message);
