@@ -1,0 +1,18 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms",
+  "main": "cli.ts",
+  "scripts": {
+    "cli": "ts-node cli.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dsa", "data structures and algorithms"],
+  "author": "Thant Hein Thwin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
